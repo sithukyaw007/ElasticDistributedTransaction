@@ -101,7 +101,6 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
@@ -125,6 +124,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\edttest001 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\edttest001 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
